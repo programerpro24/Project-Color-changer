@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+    gap:200px;
+  }
+
+  .canvas h1{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .canvas h2{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+
+  
+  .button {
+    width: 200px;
+    height: 250px;
+    border: solid black 2px;
+    display: inline-block;
+    
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+
+  
+  #Nav{
+    height: 60px;
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content :center;
+    gap:150px;
+    background-color: rgba(128, 128, 128, 0.765);
+}
+
+#Nav a{
+    width:160px;
+   font-size:20px;
+   padding: 8px 8px;
+   text-decoration: none;
+   color: black;
+   border: 1.5px solid black;
+   border-radius:5px;
+   background-color: white;
+   text-align: center;
+}
